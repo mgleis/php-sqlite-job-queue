@@ -64,8 +64,11 @@ class Queue {
             $updateStmt->execute();
 
             $this->db->commit();
-            $job = new Job($jobData['id'], json_decode($jobData['payload'], true, JSON_THROW_ON_ERROR));
-            return $job;
+
+            return new Job(
+                $jobData['id'], 
+                json_decode($jobData['payload'], true, JSON_THROW_ON_ERROR)
+            );
         } catch (\Throwable $t) {
             $this->db->rollBack();
             $this->throwIfNotALockError($t);
@@ -74,7 +77,7 @@ class Queue {
     }
 
     private function throwIfNotALockError(\Throwable $t) {
-        if ($t instanceof \PDOException 
+        if (($t instanceof \PDOException)
             && str_contains($t->getMessage(), 'database is locked'))
             return;
         throw $t;

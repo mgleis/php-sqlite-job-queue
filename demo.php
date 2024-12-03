@@ -4,7 +4,7 @@ use Mgleis\Sqlitequeue\Job;
 use Mgleis\Sqlitequeue\Queue;
 use Mgleis\Sqlitequeue\Worker;
 
-require 'vendor/autoload.php';
+require_once 'vendor/autoload.php';
 
 $queue = new Queue("jobs.sqlite", 'queue');
 $queue->push('hi');
