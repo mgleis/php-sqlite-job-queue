@@ -1,0 +1,19 @@
+{
+    "name": "mgleis/sqlitequeue",
+    "type": "library",
+    "license": "GPLv3",
+    "autoload": {
+        "psr-4": {
+            "Mgleis\\Sqlitequeue\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marcel Gleis",
+            "email": "marcel@gleis.de"
+        }
+    ],
+    "require": {
+        "php": ">=8.3"
+    }
+}
