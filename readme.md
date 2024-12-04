@@ -6,7 +6,7 @@ Use it for small projects / prototypes with at most hundreds or thousands of job
 
 ## Install
 
-    composer require mgleis/sqlitequeue
+    composer require mgleis/php-sqlite-job-queue
 
 ## Usage
 
