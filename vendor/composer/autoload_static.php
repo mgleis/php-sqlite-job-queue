@@ -9,12 +9,12 @@ class ComposerStaticInit153dbf2d4bdcf9479e928f4c21dbda2d
     public static $prefixLengthsPsr4 = array (
         'M' => 
         array (
-            'Mgleis\\Sqlitequeue\\' => 19,
+            'Mgleis\\PhpSqliteJobQueue\\' => 25,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Mgleis\\Sqlitequeue\\' => 
+        'Mgleis\\PhpSqliteJobQueue\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

@@ -1,8 +1,8 @@
 <?php
 
-use Mgleis\Sqlitequeue\Job;
-use Mgleis\Sqlitequeue\Queue;
-use Mgleis\Sqlitequeue\Worker;
+use Mgleis\PhpSqliteJobQueue\Job;
+use Mgleis\PhpSqliteJobQueue\Queue;
+use Mgleis\PhpSqliteJobQueue\Worker;
 
 require_once 'vendor/autoload.php';
 

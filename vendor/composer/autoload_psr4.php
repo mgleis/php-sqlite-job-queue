@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Mgleis\\Sqlitequeue\\' => array($baseDir . '/src'),
+    'Mgleis\\PhpSqliteJobQueue\\' => array($baseDir . '/src'),
 );

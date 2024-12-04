@@ -1,6 +1,6 @@
 <?php return array(
     'root' => array(
-        'name' => 'mgleis/sqlitequeue',
+        'name' => 'mgleis/PhpSqliteJobQueue',
         'pretty_version' => '1.0.0+no-version-set',
         'version' => '1.0.0.0',
         'reference' => null,
@@ -10,7 +10,7 @@
         'dev' => true,
     ),
     'versions' => array(
-        'mgleis/sqlitequeue' => array(
+        'mgleis/PhpSqliteJobQueue' => array(
             'pretty_version' => '1.0.0+no-version-set',
             'version' => '1.0.0.0',
             'reference' => null,

@@ -2,7 +2,7 @@
 declare(strict_types = 1);
 
 
-namespace Mgleis\Sqlitequeue;
+namespace Mgleis\PhpSqliteJobQueue;
 
 class Queue {
 
