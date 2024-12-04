@@ -1,5 +1,5 @@
 {
-    "name": "mgleis/sqlitequeue",
+    "name": "mgleis/php-sqlite-job-queue",
     "type": "library",
     "license": "GPLv3",
     "autoload": {
